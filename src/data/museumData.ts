@@ -1,4 +1,4 @@
-import type { RoomDefinition, FloorPlanSector, ExhibitItem } from '../types/museum';
+import type { RoomDefinition, FloorPlanSector, ExhibitItem, LibraryBook } from '../types/museum';
 
 export const MUSEUM_ROOMS: RoomDefinition[] = [
   {
@@ -373,3 +373,31 @@ export const AIRPORT_INCIDENT_TIMELINE = [
     tag: 'DOUBLE REGRET',
   },
 ];
+
+export const FICTIONAL_LIBRARY_BOOKS: LibraryBook[] = [
+  {
+    title: 'The Calculus of 2:00 AM Problem Sets',
+    subtitle: 'ML Aggarwal & The Infinite Series of "One More Problem"',
+    accentColor: '#38bdf8',
+    notes: 'An exhaustive volume exploring the psychological illusion that solving one more integral will magically permit sleep. High success rate, low sleep quota.',
+  },
+  {
+    title: 'Isometric Truths & Geometric Discipline',
+    subtitle: 'GMD Manual: Drafting Precision Under Pressure',
+    accentColor: '#f59e0b',
+    notes: 'T-squares, 45-degree angles, and the absolute refusal to produce an imperfect line. The foundation of true architectural rigor.',
+  },
+  {
+    title: 'NATA Aptitude & The Art of Visual Reasoning',
+    subtitle: 'Deconstructing Automotive Silhouettes & Aesthetic Logics',
+    accentColor: '#10b981',
+    notes: 'A classified field study detailing how studying car logos at 1:47 AM became a masterclass in spatial perception and relentless preparation.',
+  },
+  {
+    title: 'The Five-Minute Shutdown Paradox',
+    subtitle: 'A Theoretical Treatise on "I\'ll Sleep Soon"',
+    accentColor: '#a855f7',
+    notes: 'Scientific analysis of the time dilation phenomenon where "just 5 more minutes" predictably stretches into another full hour of focused brilliance.',
+  },
+];
+

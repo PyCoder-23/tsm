@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Compass, Sparkles, Volume2, ArrowRight } from 'lucide-react';
+import { Volume2, ArrowRight } from 'lucide-react';
 import { soundEngine } from '../audio/soundEngine';
 
 interface LoadingSceneProps {

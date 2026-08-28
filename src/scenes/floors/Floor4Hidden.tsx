@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { soundEngine } from '../../audio/soundEngine';
-import { KeyRound, Lock, Eye, Sparkles, BatteryLow, Compass, Moon, Zap, MessageSquareQuote } from 'lucide-react';
+import { Lock, Eye, Sparkles, BatteryLow, Compass, Moon, Zap, MessageSquareQuote } from 'lucide-react';
 
 interface Floor4Props {
   onElevator: () => void;

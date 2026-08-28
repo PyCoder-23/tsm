@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { soundEngine } from '../../audio/soundEngine';
-import { Compass, Sparkles, Layers, Eye, BookOpen, Highlighter, GraduationCap } from 'lucide-react';
+import { Compass, Highlighter, GraduationCap } from 'lucide-react';
 
 interface Floor1Props {
   onElevator: () => void;

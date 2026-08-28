@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { soundEngine } from '../audio/soundEngine';
-import { ArrowRight, Compass, Sparkles, Layers, Eye, Info } from 'lucide-react';
+import { ArrowRight, Compass, Sparkles, Info } from 'lucide-react';
 
 interface ExteriorSceneProps {
   onEnter: () => void;
@@ -72,15 +72,6 @@ const HOTSPOTS: Hotspot[] = [
     tag: 'GROUND LEVEL',
     align: 'right',
   },
-];
-
-const MATERIALS = [
-  { name: 'Board-formed Concrete', color: '#6b7280' },
-  { name: 'Twilight Glass Curtain', color: '#2563eb' },
-  { name: 'Vertical Metal Louvers', color: '#374151' },
-  { name: 'Living Green Terraces', color: '#10b981' },
-  { name: 'Brushed Titanium', color: '#94a3b8' },
-  { name: 'Warm Linear LED', color: '#f59e0b' },
 ];
 
 export const ExteriorScene: React.FC<ExteriorSceneProps> = ({ onEnter }) => {

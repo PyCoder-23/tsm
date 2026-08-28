@@ -73,3 +73,11 @@ export interface EasterEgg {
   rewardMessage: string;
   discovered: boolean;
 }
+
+export interface LibraryBook {
+  title: string;
+  subtitle: string;
+  accentColor: string;
+  notes: string;
+}
+

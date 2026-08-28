@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ARCHIVE_EXHIBITS } from '../../data/museumData';
 import { soundEngine } from '../../audio/soundEngine';
-import { Palette, Sparkles, Compass, Eye, Layers } from 'lucide-react';
+import { Palette, Compass } from 'lucide-react';
 
 interface Floor3Props {
   onElevator: () => void;

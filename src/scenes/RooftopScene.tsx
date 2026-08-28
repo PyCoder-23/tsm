@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
 import { soundEngine } from '../audio/soundEngine';
-import { Sparkles, Heart, Compass, RotateCcw, ArrowLeft, Flame } from 'lucide-react';
+import { Sparkles, Compass, RotateCcw, ArrowLeft } from 'lucide-react';
 
 interface RooftopSceneProps {
   onRestart: () => void;

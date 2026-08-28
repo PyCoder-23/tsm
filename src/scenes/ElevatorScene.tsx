@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { FloorId } from '../types/museum';
 import { soundEngine } from '../audio/soundEngine';
-import { Compass, Sparkles, ArrowUp, ArrowDown, Info } from 'lucide-react';
+import { Compass, ArrowUp, ArrowDown } from 'lucide-react';
 
 interface ElevatorSceneProps {
   currentFloor: FloorId | 'lobby' | 'rooftop';
